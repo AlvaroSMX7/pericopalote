@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        #Receta
+        {
+        background-color:rgb(68, 0, 255);
+        color:rgb(250, 3, 250);
+        }
+
+        html
+        {
+            background-color:rgb(0, 74, 201);
+            border:4px inset skyblue;
+        }
+        p
+        {
+            color:rgb(255, 255, 255);
+        }
+        h1
+        {
+            color:rgb(255, 255, 255);
+            background-color: rgb(0, 37, 102);
+            border:4px dashed skyblue;
+        }
+        h2
+        {
+            color:rgb(250, 3, 250);
+            background-color:rgb(68, 0, 255);
+        }
+        li
+        {
+            border:4px inset skyblue;
+            color:rgb(255, 255, 255);
+        }
+        thead,td,th
+        {
+            border:4px inset skyblue;
+            color:rgb(255, 255, 255);
+            background-color:rgb(21, 216, 230);
+        }
+        ol,ul
+        {
+            border:4px inset skyblue;
+            background-color:rgb(21, 216, 230);
+        }
+        #Ingredientes
+        {
+            color:skyblue;
+        }
+        em
+        {
+            border:4px groove skyblue;
+        }
+        img
+        {
+            border:4px outset skyblue;
+        }
+        </style>
+    </head>
+    <body>
+
+        <h1>Receta de como cocinar a tu madre</h1>
+
+        <h2><a id="Ingredientes">Ingredientes:</a></h2>
+
+        <ol>
+            <li><a href="#Ingredientes">Tu madre</a></li>
+            <li><a href="#Ingredientes">Perejil</a></li>
+            <li><a href="#Ingredientes">Huevos</a></li>
+        </ol>
+
+        <h2 id="Receta">Receta #1</h2>
+        <p>
+        La Receta de tu madre debe ser un tanto complicado para la mayoria ya que al ser un plato de una persona humana que encima no creo que hayais cocinado nunca, suma dificultad a la hora de cocinarse.
+        <ul>
+            <li>Tiempo: Unas 2h haciendo todo lo mencionado después. </li>
+            <li>Servirse: En una gran olla para comerselo entre varios</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredientes</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+        <tr>
+        <td>Tu madre</td>
+        <td>Todas las madres posibles</td>
+        </tr>
+        <tr>
+            <td>Tomate frito</td>
+            <td>250 ml de tomate</td>
+        </tr>
+        <tr>
+            <td>Cebolla</td>
+            <td>400 g para triturar</td>
+        </tr>
+        <tr>
+            <td>Pan(No prescindible)</td>
+            <td>Cantidad según el gusto</td>
+        </tr>
+            </tbody>
+        </table>
+
+        <p><strong>Paso 1 y unico paso:</strong> Mete todos los ingredientes mencionados previamente a una olla y cometelo después de 1h de cocerse.<br>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped%29.jpg/800px-Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped%29.jpg" width="200">
+        <br>
+
+        Así quedará el plato terminado!!!
+    </p>
+    <p><em><strong>Mi página web: <a href="https://www.rtve.es/television/masterchef/2013/recetas/">Aqui tienes el resto de recetas que hago en mi dia a dia</a></strong></em></p>
+
+
+    </body>
+</html>
